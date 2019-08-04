@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Germania+One|Special+Elite&display=swap');
+
 body {
 	padding-top: 4.5rem;
 	padding-bottom: 4.5rem;
@@ -70,10 +72,13 @@ body {
 	font-size: 24px;
 }
 
-.ci {
+#ci {
 	margin-left: 50px;
 }
 
+#re {
+	margin-left: 50px;
+}
 
 /*Responsive Stling*/
 @media (max-width: 1499px) {
