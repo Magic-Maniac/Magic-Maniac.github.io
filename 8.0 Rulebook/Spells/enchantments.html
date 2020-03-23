@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--css links-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/custom.css">
+    
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/53446614ec.js" crossorigin="anonymous"></script>
+
+	<title>Enchantments</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="../index.html">About Us</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <!-- Sidebar -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="dropbtn">Classes</button>
+                            <div class="dropdown-content">
+                                <a href="../Classes/class-overview.html">Class Overview</a>
+                                <a href="../Classes/Magic/magic-classes.html">Magic Classes</a>
+                                <a href="../Classes/Melee/melee-classes.html">Melee Classes</a>
+                                <a href="../Classes/Knight/knight-classes.html">Knight Classes</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="dropbtn">Spells</button>
+                            <div class="dropdown-content">
+                                <a href="magic.html">All Spells</a>
+                                <a href="verbals.html">Verbals</a>
+                                <a href="enchantments.html">Enchantments</a>
+                                <a href="magic-balls.html">Magic Balls</a>
+                                <a href="specialty-arrows.html">Specialty Arrows</a>
+                                <a href="chant.html">Chant Rules</a>
+                                <a href="charge.html">Charge Rules</a>
+                                <a href="magic-armor.html">Magic Armor Rules</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="dropbtn">States</button>
+                            <div class="dropdown-content">
+                                <a href="../States/cursed.html">Cursed</a>
+                                <a href="../States/fragile.html">Fragile</a>
+                                <a href="../States/frozen.html">Frozen</a>
+                                <a href="../States/immune.html">Immune</a>
+                                <a href="../States/insubstantial.html">Insubstantial</a>
+                                <a href="../States/out-of-game.html">Out of Game</a>
+                                <a href="../States/resistent.html">Resistent</a>
+                                <a href="../States/stopped.html">Stopped</a>
+                                <a href="../States/stunned.html">Stunned</a>
+                                <a href="../States/suppressed.html">Suppressed</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="dropbtn">Effects</button>
+                            <div class="dropdown-content">
+                                <a href="../Effects/armor-breaking.html">Armor Breaking</a>
+                                <a href="../Effects/armor-destroying.html">Armor Destroying</a>
+                                <a href="../Effects/engulfing.html">Emgulfing</a>
+                                <a href="../Effects/shield-crushing.html">Shield Crushing</a>
+                                <a href="../Effects/shield-destroying.html">Shield Destroying</a>
+                                <a href="../Effects/weapon-destroying.html">Weapon Destrpying</a>
+                                <a href="../Effects/wounds-kill.html">Wounds Kill</a>
+                            </div>                          
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="dropbtn">Armor/Shields</button>
+                            <div class="dropdown-content">
+                                <a href="..Armor&#38;Shields/Armor/armor.html">Armor</a>
+                                <a href="../Armor&#38;Shields/shields.html">Shields</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="dropbtn">Weapons</button>
+                            <div class="dropdown-content">
+                                <a href="../Weapons/weapon-construction.html">Weapon Construction</a>
+                                <a href="../Weapons/bow.html">Bows</a>
+                                <a href="../Weapons/Melee/dagger.html">Daggers</a>
+                                <a href="../Weapons/Melee/great.html">Great Swords</a>
+                                <a href="../Weapons/Melee/hinged.html">Hinged Weapons</a>
+                                <a href="../Weapons/Melee/long.html">Long Swords</a>
+                                <a href="../Weapons/Melee/madu.html">Madu</a>
+                                <a href="../Weapons/seige-weapon.html">Seige Weapons</a>
+                                <a href="../Weapons/Melee/short.html">Short Swords</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="dropbtn">Projectiles</button>
+                            <div class="dropdown-content">
+                                <a href="../Projectiles&#38;Ammo/projectile-description.html">Projectile Description</a>
+                                <a href="../Projectiles&#38;Ammo/Arrows/arrows.html">Arrows</a>
+                                <a href="../Projectiles&#38;Ammo/Projectiles/projectiles.html">Projectiles</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="dropbtn">Misc.</button>
+                            <div class="dropdown-content">
+                                <a href="../Misc.%20Equipment/sashes.html">Sashes</a>
+                                <a href="../Misc.%20Equipment/strips.html">Strips</a>
+                                <a href="../../Monster%20Rulebook/index.html">Monster Rulebook</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- Search Bar -->
+                <form class="form-inline mt-2 mt-md-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+    	<h2>Enchantments</h2>
+
+        <button type="button" class="collapsible">Enchantment Rules</button>
+        <div class="content">
+            <p>Enchantments are ongoing. Enchantments remain until they are used up or removed. Unless otherwise noted:</p>
+            <ol>
+                <li>Enchantments must be denoted by an apporiately colored strip attached to the enchanted person.
+                    <ol type="a">
+                        <li>Offensive enchantments are denoted by a <a href="../Misc.%20Equipment/strips.html">Red Strip</a></li>
+                        <li>Defensive enchantments are denoted by a <a href="../Misc.%20Equipment/strips.html">White Strip</a></li>
+                        <li>Miscellaneous enchantments are denoted by a <a href="../Misc.%20Equipment/strips.html">Yellow Strip</a></li>
+                    </ol>
+                </li>
+                <li>Enchantments may only be carried one at a time by a player, unless otherwise noted.</li>
+                <li>Enchantments may only be cast on willing players.</li>
+                <li>Enchantments are always placed on players. Some Enchantments carried by players affect the equipment they carry or use as noted in the Enchantments description.</li>
+                <li>If a person bearing an Enchantment is killed the Enchantment remains but becomes inactive. Respawning removes any Enchantments from a player and their equipment unless the Enchantments are <a href="Schools/Neutral/persistent.html">Persistent</a>. If the personis returned to the same life, as opposed to respawning, then Enchantments are preserved and will function again, unless otherwise noted.
+                    <ol type="a">
+                        <li>If a player voluntarily moves after having died then the Enchantments they carried are removed. Does not apply to Persistent Enchantments.</li> 
+                        <li>If a player voluntarily takes a death, all Enchantments carried are removed.</li>   
+                    </ol>
+                </li>
+                <li>Magic users may not cast Enchantments on themselves with the exception of Enchantments with a range of 'Self'.</li>
+                <li>Enchantments are used up even if ineffective against their target. Discharging <a href="Schools/Death/poison.html">Poison</a> against a target <a href="../States/immune.html">Immune</a> to the <a href="Schools/Death/death.html">Death</a> School still consumes the Poison Enchantment</li>
+                <li>Enchantments that have a definite number of uses, such as <a href="Schools/Protection/blessing-against-harm.html">Blessing Against Harm</a> or <a href="Schools/Command/grasping-tentacles.html">Grasping Tentacles</a>, are removed when their last use is expended or when removed by <a href="Schools/Sorcery/dispel-magic.html">Dispel Magic</a>, <a href="Schools/Spirit/resurrect.html">Resurrect</a>, or similar Enchantment removal effects.</li>
+                <li>States imparted by Enchantments to their bearer cannot be removed in any way while the Enchantment is active and are removed when the Enchantment is removed, unless otherwise noted. Example One: A player bearing <a href="Schools/Death/corrosive-mist.html">Corrosive Mist</a> is <a href="../States/stopped.html">Stopped</a>. When they die the Enchantment becomes inactive and the Stopped State is removed since all States, except <a href="../States/cursed.html">Cursed</a>, are removed by death. If the player is returned to life in a manner that preserves his Enchantments then he will again become Stopped as Corrosive Mist becomes active again and re-applies the State. Example two: A player bearing <a href="Schools/Protection/protection-from-magic.html">Protection From Magic</a> is killed and becomes Cursed by Protection From Magic. Protection From Magic becomes inactive after he dies but the Cursed State persisrs as Cursed is not removed by player death. Since Protection From Magic is no longer active the Cursed State would be removable by <a href="Schools/Sorcery/greater-realese.html">Greater Realese</a> or similar means.</li>
+                <li>Special Effects granted to equipment via Enchantments are considered magical and have a School corresponding to the School of the Enchantment.</li>
+                <li>Enchantments worn (or a summary of their effects) must be announced at the beginning of an engagement if possible. Enchantments worn must always be announced when requested.</li>
+            </ol>    
+        </div>
+    	
+        <hr>
+
+        <h3 style="padding-bottom: 10px">By School</h3>
+
+        <button type="button" class="collapsible">Command</button>
+        <div class="content">
+        <ul>
+            <li><a href="Schools/Command/discordia.html">Discordia</a></li>
+            <li><a href="Schools/Command/grasping-tentacles.html">Grasping Tentacles</a></li>
+        </ul>    
+        </div>
+
+    	<button type="button" class="collapsible">Death</button>
+        <div class="content">
+        <ul>
+            <li><a href="Schools/Death/contagion.html">Contagion</a></li>
+            <li><a href="Schools/Death/corrosive-mist.html">Corrosive Mist</a></li>
+            <li><a href="Schools/Death/greater-undead-minion.html">Greater Undead Minion</a></li>
+            <li><a href="Schools/Death/imbue-weapon.html">Imbue Weapon</a></li>
+            <li><a href="Schools/Death/lyncanthropy.html">Lyncanthropy</a></li>
+            <li><a href="Schools/Death/poison-glands.html">Poison Glands</a></li>
+            <li><a href="Schools/Death/poison.html">Poison</a></li>
+            <li><a href="Schools/Death/undead-minion.html">Undead Minion</a></li>
+            <li><a href="Schools/Death/vampirism.html">Vampirism</a></li>
+        </ul>    
+        </div>
+        
+        <button type="button" class="collapsible">Flame</button>        
+        <div class="content">
+            <ul>
+                <li><a href="Schools/Flame/flame-blade.html">Flame Blade</a></li>
+                <li><a href="Schools/Flame/gift-of-fire.html">Gift of Fire</a></li>
+            </ul>    
+        </div>
+        
+        <button type="button" class="collapsible">Protection</button>
+        <div class="content">
+            <ul>
+                <li><a href="Schools/Protection/adaptive-blessing.html">Adaptive Blessing</a></li>
+                <li><a href="Schools/Protection/adaptive-protection.html">Adaptive Protection</a></li>
+                <li><a href="Schools/Protection/ancestral-armor.html">Ancestral Armor</a></li>
+                <li><a href="Schools/Protection/barkskin.html">Barkskin</a></li>
+                <li><a href="Schools/Protection/blessed-aura.html">Blessed Aura</a></li>
+                <li><a href="Schools/Protection/blessing-against-harm.html">Blessing Against Harm</a></li>
+                <li><a href="Schools/Protection/blessing-against-wounds.html">Blessing Against Wounds</a></li>
+                <li><a href="Schools/Protection/circle-of-protection.html">Circle of Protection</a></li>
+                <li><a href="Schools/Protection/enlightened-soul.html">Enlightened Soul</a></li>
+                <li><a href="Schools/Protection/extend-immunities.html">Extend Immunities</a></li>
+                <li><a href="Schools/Protection/gift-of-air.html">Gift of Air</a></li>
+                <li><a href="Schools/Protection/gift-of-earth.html">Gift of Earth</a></li>
+                <li><a href="Schools/Protection/greater-harden.html">Greater Harden</a></li>
+                <li><a href="Schools/Protection/harden.html">Harden</a></li>
+                <li><a href="Schools/Protection/imbue-armor.html">Imbue Armor</a></li>
+                <li><a href="Schools/Protection/imbue-shield.html">Imbue Shield</a></li>
+                <li><a href="Schools/Protection/ironskin.html">Ironskin</a></li>
+                <li><a href="Schools/Protection/magic-ball-block.html">Magic Ball Block</a></li>
+                <li><a href="Schools/Protection/missile-block.html">Missile Block</a></li>
+                <li><a href="Schools/Protection/protection-from-magic.html">Protection From Magic</a></li>
+                <li><a href="Schools/Protection/protection-from-projectiles.html">Protection From Projectiles</a></li>
+                <li><a href="Schools/Protection/song-of-battle.html">Song of Battle</a></li>
+                <li><a href="Schools/Protection/song-of-deflection.html">Song of Deflection</a></li>
+                <li><a href="Schools/Protection/song-of-determination.html">Song of Determination</a></li>
+                <li><a href="Schools/Protection/song-of-freedom.html">Song of Freedom</a></li>
+                <li><a href="Schools/Protection/song-of-interference.html">Song of Interfernece</a></li>
+                <li><a href="Schools/Protection/song-of-power.html">Song of Power</a></li>
+                <li><a href="Schools/Protection/song-of-survival.html">Song of Survival</a></li>
+                <li><a href="Schools/Protection/song-of-visit.html">Song of Visit</a></li>
+                <li><a href="Schools/Protection/stoneskin.html">Stoneskin</a></li>
+                <li><a href="Schools/Protection/troll-blood.html">Troll Blood</a></li>
+                <li><a href="Schools/Protection/ward-self.html">Ward Self</a></li>
+            </ul>    
+        </div>
+        
+        <button type="button" class="collapsible">Sorcery</button>
+        <div class="content">
+            <ul>
+                <li><a href="Schools/Sorcery/attuned.html">Attuned</a></li>
+                <li><a href="Schools/Sorcery/bear-strength.html">Bear Strength</a></li>
+                <li><a href="Schools/Sorcery/essence-graft.html">Essence Graft</a></li>
+                <li><a href="Schools/Sorcery/evolution.html">Evolution</a></li>
+                <li><a href="Schools/Sorcery/gift-of-water.html">Gift of Water</a></li>
+                <li><a href="Schools/Sorcery/golem.html">Golem</a></li>
+                <li><a href="Schools/Sorcery/naturalize-magic.html">Naturalize Magic</a></li>
+                <li><a href="Schools/Sorcery/silver-tongue.html">Silver Tongue</a></li>
+                <li><a href="Schools/Sorcery/sleight-of-mind.html">Sleight of Mind</a></li>
+                <li><a href="Schools/Sorcery/void-touched.html">Void Touched</a></li>
+            </ul>    
+        </div>
+        
+        <button type="button" class="collapsible">Spirit</button>
+        <div class="content">
+            <ul>
+                <li><a href="Schools/Spirit/battlefield-triage.html">Battlefield Triage</a></li>
+                <li><a href="Schools/Spirit/heart-of-the-swarm.html">Heart of the Swarm</a></li>
+                <li><a href="Schools/Spirit/mass-healing.html">Mass Healing</a></li>
+                <li><a href="Schools/Spirit/phoenix-tears.html">Phoenix Tears</a></li>
+                <li><a href="Schools/Spirit/regeneration.html">Regeneration</a></li>
+            </ul>    
+        </div>
+
+        <hr>
+
+        <h3 style="padding-bottom: 10px">By Strip</h3>
+
+        <button type="button" class="collapsible">Red Strip</button>
+        <div class="content">
+            <ul>
+                <li><a href="Schools/Sorcery/bear-strength.html">Bear Strength</a></li>
+                <li><a href="Schools/Death/contagion.html">Contagion</a></li>
+                <li><a href="Schools/Death/corrosive-mist.html">Corrosive Mist</a></li>
+                <li><a href="Schools/Command/discordia.html">Discordia</a></li>
+                <li><a href="Schools/Flame/flame-blade.html">Flame Blade</a></li>
+                <li><a href="Schools/Flame/gift-of-fire.html">Gift of Fire</a></li>
+                <li><a href="Schools/Sorcery/golem.html">Golem</a></li>
+                <li><a href="Schools/Command/grasping-tentacles.html">Grasping Tentacles</a></li>
+                <li><a href="Schools/Death/imbue-weapon.html">Imbue Weapon</a></li>
+                <li><a href="Schools/Death/lyncanthropy.html">Lyncanthropy</a></li>
+                <li><a href="Schools/Sorcery/naturalize-magic.html">Naturalize Magic</a></li>
+                <li><a href="Schools/Death/poison-glands.html">Poison Glands</a></li>
+                <li><a href="Schools/Death/poison.html">Poison</a></li>
+                <li><a href="Schools/Sorcery/void-touched.html">Void Touched</a></li>
+            </ul>
+        </div>
+
+        <button type="button" class="collapsible">White Strip</button>
+        <div class="content">
+            <ul>
+                <li><a href="Schools/Protection/adaptive-blessing.html">Adaptive Blessing</a></li>
+                <li><a href="Schools/Protection/adaptive-protection.html">Adaptive Protection</a></li>
+                <li><a href="Schools/Protection/ancestral-armor.html">Ancestral Armor</a></li>
+                <li><a href="Schools/Protection/barkskin.html">Barkskin</a></li>
+                <li><a href="Schools/Protection/blessed-aura.html">Blessed Aura</a></li>
+                <li><a href="Schools/Protection/blessing-against-harm.html">Blessing Against Harm</a></li>
+                <li><a href="Schools/Protection/blessing-against-wounds.html">Blessing Against Wounds</a></li>
+                <li><a href="Schools/Protection/enlightened-soul.html">Enlightened Soul</a></li>
+                <li><a href="Schools/Protection/extend-immunities.html">Extend Immunities</a></li>
+                <li><a href="Schools/Flame/flame-blade.html">Flame Blade</a></li>
+                <li><a href="Schools/Protection/gift-of-air.html">Gift of Air</a></li>
+                <li><a href="Schools/Protection/gift-of-earth.html">Gift of Earth</a></li>
+                <li><a href="Schools/Flame/gift-of-fire.html">Gift of Fire</a></li>
+                <li><a href="Schools/Sorcery/gift-of-water.html">Gift of Water</a></li>
+                <li><a href="Schools/Sorcery/golem.html">Golem</a></li>
+                <li><a href="Schools/Protection/greater-harden.html">Greater Harden</a></li>
+                <li><a href="Schools/Protection/harden.html">Harden</a></li>
+                <li><a href="Schools/Protection/imbue-armor.html">Imbue Armor</a></li>
+                <li><a href="Schools/Protection/imbue-shield.html">Imbue Shield</a></li>
+                <li><a href="Schools/Protection/ironskin.html">Ironskin</a></li>
+                <li><a href="Schools/Death/lyncanthropy.html">Lyncanthropy</a></li>
+                <li><a href="Schools/Spirit/phoenix-tears.html">Phoenix Tears</a></li>
+                <li><a href="Schools/Protection/protection-from-magic.html">Protection From Magic</a></li>
+                <li><a href="Schools/Protection/protection-from-projectiles.html">Protection From Projectiles</a></li>
+                <li><a href="Schools/Protection/stoneskin.html">Stoneskin</a></li>
+                <li><a href="Schools/Protection/troll-blood.html">Troll Blood</a></li>
+                <li><a href="Schools/Death/vampirism.html">Vampirism</a></li>
+                <li><a href="Schools/Sorcery/void-touched.html">Void Touched</a></li>
+                <li><a href="Schools/Protection/ward-self.html">Ward Self</a></li>
+            </ul>
+        </div>
+
+        <button type="button" class="collapsible">Yellow Strip</button>
+        <div class="content">
+            <ul>
+                <li><a href="Schools/Sorcery/attuned.html">Attuned</a></li>
+                <li><a href="Schools/Spirit/battlefield-triage.html">Battlefield Triage</a></li>
+                <li><a href="Schools/Sorcery/essence-graft.html">Essence Graft</a></li>
+                <li><a href="Schools/Sorcery/gift-of-water.html">Gift of Water</a></li>
+                <li><a href="Schools/Death/greater-undead-minion.html">Greater Undead Minion</a></li>
+                <li><a href="Schools/Spirit/heart-of-the-swarm.html">Heart of the Swarm</a></li>
+                <li><a href="Schools/Spirit/mass-healing.html">Mass Healing</a></li>
+                <li><a href="Schools/Spirit/regeneration.html">Regeneration</a></li>
+                <li><a href="Schools/Sorcery/silver-tongue.html">Silver Tongue</a></li>
+                <li><a href="Schools/Sorcery/sleight-of-mind/html">Sleight of Mind</a></li>
+                <li><a href="Schools/Death/undead-minion.html">Undead Minion</a></li>
+                <li><a href="Schools/Death/vampirism.html">Vampirism</a></li>
+            </ul>
+        </div>
+
+        <button type="button" class="collapsible">No Strip</button>
+        <div class="content">
+            <ul>
+                <li><a href="Schools/Protection/circle-of-protection.html">Circle of Protection</a></li>
+                <li><a href="Schools/Sorcery/evolution.html">Evolution</a></li>
+                <li><a href="Schools/Protection/magic-ball-block.html">Magic Ball Block</a></li>
+                <li><a href="Schools/Protection/missile-block.html">Missle Block</a></li>
+                <li><a href="Schools/Protection/song-of-battle.html">Song of Battle</a></li>
+                <li><a href="Schools/Protection/song-of-deflection.html">Song of Deflection</a></li>
+                <li><a href="Schools/Protection/song-of-determination.html">Song of Determination</a></li>
+                <li><a href="Schools/Protection/song-of-freedom.html">Song of Freedom</a></li>
+                <li><a href="Schools/Protection/song-of-interference.html">Song of Interference</a></li>
+                <li><a href="Schools/Protection/song-of-power.html">Song of Power</a></li>
+                <li><a href="Schools/Protection/song-of-survival.html">Song of Survival</a></li>
+                <li><a href="Schools/Protection/song-of-visit.html">Song of Visit</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="../js/collapsible-dropdown.js"></script>
+
+</body>
+</html>
