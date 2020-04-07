@@ -17256,7 +17256,7 @@ the-red-yeti:
     - 5.3.0
     - 5.7.0
     - 5.8.0
-  label: The Red Yeti
+  label: the Red Yeti
   search:
     terms: []
   styles:
@@ -17266,7 +17266,7 @@ the-red-yeti:
 theater-masks:
   changes:
     - 5.2.0
-  label: Theater Masks
+  label: theater Masks
   search:
     terms:
       - comedy
@@ -17281,7 +17281,7 @@ themeco:
   changes:
     - 5.1.0
     - 5.8.0
-  label: Themeco
+  label: themeco
   search:
     terms: []
   styles:
@@ -17292,7 +17292,7 @@ themeisle:
   changes:
     - '4.6'
     - 5.0.0
-  label: ThemeIsle
+  label: themeIsle
   search:
     terms: []
   styles:
@@ -17302,7 +17302,7 @@ themeisle:
 thermometer:
   changes:
     - 5.0.7
-  label: Thermometer
+  label: thermometer
   search:
     terms:
       - mercury
@@ -17316,7 +17316,7 @@ thermometer-empty:
   changes:
     - '4.7'
     - 5.0.0
-  label: Thermometer Empty
+  label: thermometer Empty
   search:
     terms:
       - cold
@@ -17331,7 +17331,7 @@ thermometer-full:
   changes:
     - '4.7'
     - 5.0.0
-  label: Thermometer Full
+  label: thermometer Full
   search:
     terms:
       - fever
@@ -17347,7 +17347,7 @@ thermometer-half:
   changes:
     - '4.7'
     - 5.0.0
-  label: Thermometer 1/2 Full
+  label: thermometer 1/2 Full
   search:
     terms:
       - mercury
@@ -17361,7 +17361,7 @@ thermometer-quarter:
   changes:
     - '4.7'
     - 5.0.0
-  label: Thermometer 1/4 Full
+  label: thermometer 1/4 Full
   search:
     terms:
       - mercury
@@ -17375,7 +17375,7 @@ thermometer-three-quarters:
   changes:
     - '4.7'
     - 5.0.0
-  label: Thermometer 3/4 Full
+  label: thermometer 3/4 Full
   search:
     terms:
       - mercury

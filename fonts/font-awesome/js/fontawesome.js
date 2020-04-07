@@ -362,7 +362,7 @@
       }
     }
 
-    if (!handleThenable(promise, value)) {
+    if (!handlethenable(promise, value)) {
       if (settled === FULFILLED) {
         resolve(promise, value);
       }
@@ -373,7 +373,7 @@
     }
   }
 
-  function handleThenable(promise, value) {
+  function handlethenable(promise, value) {
     var resolved;
 
     try {
@@ -417,7 +417,7 @@
   }
 
   function resolve(promise, value) {
-    if (promise === value || !handleThenable(promise, value)) {
+    if (promise === value || !handlethenable(promise, value)) {
       fulfill(promise, value);
     }
   }
@@ -1103,11 +1103,11 @@
    *
    * A fast object `.reduce()` implementation.
    *
-   * @param  {Object}   subject      The object to reduce over.
-   * @param  {Function} fn           The reducer function.
-   * @param  {mixed}    initialValue The initial value for the reducer, defaults to subject[0].
-   * @param  {Object}   thisContext  The context for the reducer.
-   * @return {mixed}                 The final result.
+   * @param  {Object}   subject      the object to reduce over.
+   * @param  {Function} fn           the reducer function.
+   * @param  {mixed}    initialValue the initial value for the reducer, defaults to subject[0].
+   * @param  {Object}   thisContext  the context for the reducer.
+   * @return {mixed}                 the final result.
    */
 
 

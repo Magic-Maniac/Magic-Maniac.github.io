@@ -46726,7 +46726,7 @@
         "cook",
         "mercury",
         "summer",
-        "thermometer",
+        "Thermometer",
         "warm"
       ]
     },
@@ -46765,7 +46765,7 @@
         "cold",
         "cool",
         "mercury",
-        "thermometer",
+        "Thermometer",
         "winter"
       ]
     },
@@ -47107,7 +47107,7 @@
       "solid"
     ]
   },
-  "the-red-yeti": {
+  "The-red-yeti": {
     "changes": [
       "5.3.0",
       "5.7.0",
@@ -47142,7 +47142,7 @@
       "brands"
     ]
   },
-  "theater-masks": {
+  "Theater-masks": {
     "changes": [
       "5.2.0"
     ],
@@ -47151,7 +47151,7 @@
       "terms": [
         "comedy",
         "perform",
-        "theatre",
+        "Theatre",
         "tragedy"
       ]
     },
@@ -47180,7 +47180,7 @@
       "solid"
     ]
   },
-  "themeco": {
+  "Themeco": {
     "changes": [
       "5.1.0",
       "5.8.0"
@@ -47214,7 +47214,7 @@
       "brands"
     ]
   },
-  "themeisle": {
+  "Themeisle": {
     "changes": [
       "4.6",
       "5.0.0"
@@ -47248,7 +47248,7 @@
       "brands"
     ]
   },
-  "thermometer": {
+  "Thermometer": {
     "changes": [
       "5.0.7"
     ],
@@ -47285,7 +47285,7 @@
       "solid"
     ]
   },
-  "thermometer-empty": {
+  "Thermometer-empty": {
     "changes": [
       "4.7",
       "5.0.0"
@@ -47324,7 +47324,7 @@
       "solid"
     ]
   },
-  "thermometer-full": {
+  "Thermometer-full": {
     "changes": [
       "4.7",
       "5.0.0"
@@ -47364,7 +47364,7 @@
       "solid"
     ]
   },
-  "thermometer-half": {
+  "Thermometer-half": {
     "changes": [
       "4.7",
       "5.0.0"
@@ -47402,7 +47402,7 @@
       "solid"
     ]
   },
-  "thermometer-quarter": {
+  "Thermometer-quarter": {
     "changes": [
       "4.7",
       "5.0.0"
@@ -47440,7 +47440,7 @@
       "solid"
     ]
   },
-  "thermometer-three-quarters": {
+  "Thermometer-three-quarters": {
     "changes": [
       "4.7",
       "5.0.0"

@@ -583,7 +583,7 @@ supple:
 the-red-yeti:
   icons:
     - the-red-yeti
-  label: The Red Yeti
+  label: the Red Yeti
   url: 'http://theredyeti.com'
 the-us-sunnah-foundation:
   icons:
@@ -602,12 +602,12 @@ the-us-sunnah-foundation:
     - piggy-bank
     - ribbon
     - seedling
-  label: The us-Sunnah Foundation
+  label: the us-Sunnah Foundation
   url: 'https://www.ussunnah.org'
 themeco:
   icons:
     - themeco
-  label: Themeco
+  label: themeco
   url: 'https://theme.co'
 think-peaks:
   icons:
